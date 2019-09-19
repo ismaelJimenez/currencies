@@ -17,10 +17,10 @@ class Currency {
 
   const Currency(
       {this.isoCode,
-        this.fullName,
-        this.symbol,
-        this.minorUnit,
-        this.minorFraction});
+      this.fullName,
+      this.symbol,
+      this.minorUnit,
+      this.minorFraction});
 }
 
 final Map<String, Currency> currencies = <String, Currency>{
