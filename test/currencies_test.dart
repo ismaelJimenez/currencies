@@ -6,7 +6,7 @@ import 'package:currencies/currencies.dart';
 import 'package:test/test.dart';
 
 void main() {
-  group('currencies [Curencies]', () {
+  group('currencies [Currencies]', () {
     test('USD', () {
       expect(currencies[Iso4217Code.usd].isoCode, 'USD');
       expect(currencies[Iso4217Code.usd].fullName, 'US Dollar');
@@ -21,6 +21,20 @@ void main() {
       expect(currencies[Iso4217Code.eur].symbol, r'€');
       expect(currencies[Iso4217Code.eur].minorUnit, 'cent');
       expect(currencies[Iso4217Code.eur].minorFraction, 100);
+    });
+  });
+
+  group('getIsoCode [Currencies]', () {
+    test('getIsoCode with valid string', () {
+      expect(isoCodeFromStr('EUR'), Iso4217Code.eur);
+    });
+
+    test('getIsoCode with valid lower case string', () {
+      expect(isoCodeFromStr('eur'), Iso4217Code.eur);
+    });
+
+    test('getIsoCode with invalid string', () {
+      expect(isoCodeFromStr('WWWW'), Iso4217Code.usd);
     });
   });
 }

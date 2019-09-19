@@ -31,6 +31,22 @@ class Currency {
 
 enum Iso4217Code { usd, eur }
 
+
+/// Returns the Iso4217Code for a given iso code string.
+///
+/// The `isoCodeStr` argument specifies the iso code string.
+///
+/// Note: In case of an invalid iso code string, USD is given per default.
+Iso4217Code isoCodeFromStr(String isoCodeStr) {
+  for (Iso4217Code isoCode in currencies.keys) {
+    if (currencies[isoCode].isoCode == isoCodeStr.toUpperCase()) {
+      return isoCode;
+    }
+  }
+  return Iso4217Code.usd;
+}
+
+/// List of all Iso4217 currencies.
 final Map<Iso4217Code, Currency> currencies = <Iso4217Code, Currency>{
   Iso4217Code.usd: const Currency(
       isoCode: 'USD',
