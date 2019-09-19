@@ -31,7 +31,6 @@ class Currency {
 
 enum Iso4217Code { usd, eur }
 
-
 /// Returns the Iso4217Code for a given iso code string.
 ///
 /// The `isoCodeStr` argument specifies the iso code string.
