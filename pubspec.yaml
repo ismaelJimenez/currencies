@@ -1,0 +1,16 @@
+name: currencies
+description: The fundamental package for handling currencies with Dart.
+version: 0.0.1
+author: "Ismael Jiménez <ijimenezm@hotmail.es>"
+homepage: https://github.com/ismaelJimenez/finance
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  meta: ^1.1.7
+
+dev_dependencies:
+  test: '>=1.3.0 <1.6.8'
+  mockito: ^4.1.0
+  pedantic: ^1.8.0+1
