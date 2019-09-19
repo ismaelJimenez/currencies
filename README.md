@@ -10,7 +10,7 @@ This package provides a set of high-level classes that make it easy to handle cu
   // Print US Dollar information
   print(currencies[Iso4217Code.usd]);
 ```
-
 The previous command show as output:
-
+```dart
 Currency{isoCode: USD, fullName: US Dollar, symbol: $, minorUnit: cent, minorFraction: 100}
+```
