@@ -4,7 +4,6 @@
 
 library finance;
 
-import 'dart:math';
 import 'package:meta/meta.dart';
 
 @immutable
