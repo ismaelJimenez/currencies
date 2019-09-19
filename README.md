@@ -6,13 +6,11 @@ The fundamental package for handling currencies with Dart.
 This package provides a set of high-level classes that make it easy to handle currencies with Dart. It's platform-independent, supports iOS and Android.
 
 # Using
-
 ```dart
   // Print US Dollar information
-  print('isoCode: ${currencies['USD'].isoCode}, '
-      'fullName: ${currencies['USD'].fullName}, '
-      'symbol: ${currencies['USD'].symbol}, '
-      'minorUnit: ${currencies['USD'].minorUnit}, '
-      'minorFraction: ${currencies['USD'].minorFraction}');
+  print(currencies[Iso4217Code.usd]);
 ```
 
+The previous command show as output:
+
+Currency{isoCode: USD, fullName: US Dollar, symbol: $, minorUnit: cent, minorFraction: 100}

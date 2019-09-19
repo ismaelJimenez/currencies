@@ -8,19 +8,19 @@ import 'package:test/test.dart';
 void main() {
   group('currencies [Curencies]', () {
     test('USD', () {
-      expect(currencies['USD'].isoCode, 'USD');
-      expect(currencies['USD'].fullName, 'US Dollar');
-      expect(currencies['USD'].symbol, r'$');
-      expect(currencies['USD'].minorUnit, 'cent');
-      expect(currencies['USD'].minorFraction, 100);
+      expect(currencies[Iso4217Code.usd].isoCode, 'USD');
+      expect(currencies[Iso4217Code.usd].fullName, 'US Dollar');
+      expect(currencies[Iso4217Code.usd].symbol, r'$');
+      expect(currencies[Iso4217Code.usd].minorUnit, 'cent');
+      expect(currencies[Iso4217Code.usd].minorFraction, 100);
     });
 
     test('EUR', () {
-      expect(currencies['EUR'].isoCode, 'EUR');
-      expect(currencies['EUR'].fullName, 'Euro');
-      expect(currencies['EUR'].symbol, r'€');
-      expect(currencies['EUR'].minorUnit, 'cent');
-      expect(currencies['EUR'].minorFraction, 100);
+      expect(currencies[Iso4217Code.eur].isoCode, 'EUR');
+      expect(currencies[Iso4217Code.eur].fullName, 'Euro');
+      expect(currencies[Iso4217Code.eur].symbol, r'€');
+      expect(currencies[Iso4217Code.eur].minorUnit, 'cent');
+      expect(currencies[Iso4217Code.eur].minorFraction, 100);
     });
   });
 }
