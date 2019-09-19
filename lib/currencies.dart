@@ -29,10 +29,7 @@ class Currency {
   }
 }
 
-enum Iso4217Code {
-  usd,
-  eur
-}
+enum Iso4217Code { usd, eur }
 
 final Map<Iso4217Code, Currency> currencies = <Iso4217Code, Currency>{
   Iso4217Code.usd: const Currency(
