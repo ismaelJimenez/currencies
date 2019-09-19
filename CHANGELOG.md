@@ -1,3 +1,7 @@
+## [0.0.3] - 1/9/19
+
+*  Added isoCodeFromStr function.
+
 ## [0.0.2] - 1/9/19
 
 *  Added ISO 4217 enum.
