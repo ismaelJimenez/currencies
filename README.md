@@ -14,3 +14,38 @@ The previous command show as output:
 ```dart
 Currency{isoCode: USD, fullName: US Dollar, symbol: $, minorUnit: cent, minorFraction: 100}
 ```
+
+  
+  # Supported currencies
+  
+ * Australian Dollar 
+ * Bulgarian Lev 
+ * Brazilian Real 
+ * Canadian Dollar 
+ * Swiss Franc 
+ * Czech Koruna 
+ * Danish Krone 
+ * Euro 
+ * British Pound 
+ * Hong Kong Dollar 
+ * Croatian Kuna 
+ * Hungarian Forint 
+ * Indonesian Rupiah 
+ * Israeli Shekel 
+ * Indian Rupee 
+ * Icelandic Krona 
+ * Japanese Yen 
+ * South Korean Won 
+ * Mexican Peso 
+ * Malaysian Ringgit 
+ * Norwegian Krone 
+ * New Zealand Dollar 
+ * Philippine Peso 
+ * Polish Zloty 
+ * Romanian Leu 
+ * Russian Ruble 
+ * Swedish Krona  
+ * Turkish Lira 
+ * Thai Baht 
+ * US Dollar 
+ * South African Rand
