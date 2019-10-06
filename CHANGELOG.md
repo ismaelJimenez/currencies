@@ -1,3 +1,7 @@
+## [0.1.0] - 6/10/19
+
+*  Added ECB supported forex currencies.
+
 ## [0.0.3] - 1/9/19
 
 *  Added isoCodeFromStr function.
