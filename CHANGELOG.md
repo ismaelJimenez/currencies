@@ -1,3 +1,7 @@
+## [0.1.1] - 6/10/19
+
+*  Added Chinese Yuan.
+
 ## [0.1.0] - 6/10/19
 
 *  Added ECB supported forex currencies.

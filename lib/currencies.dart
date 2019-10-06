@@ -110,6 +110,12 @@ final Map<Iso4217Code, Currency> currencies = <Iso4217Code, Currency>{
       symbol: r'CHF',
       minorUnit: 'rappen',
       minorFraction: 100),
+  Iso4217Code.chf: const Currency(
+      isoCode: 'CNY',
+      fullName: 'Chinese Yuan Renminbi',
+      symbol: r'¥',
+      minorUnit: 'jiao',
+      minorFraction: 10),
   Iso4217Code.czk: const Currency(
       isoCode: 'CZK',
       fullName: 'Czech Koruna',

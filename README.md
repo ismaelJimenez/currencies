@@ -23,6 +23,7 @@ Currency{isoCode: USD, fullName: US Dollar, symbol: $, minorUnit: cent, minorFra
  * Brazilian Real 
  * Canadian Dollar 
  * Swiss Franc 
+ * Chinese Yuan Renminbi
  * Czech Koruna 
  * Danish Krone 
  * Euro 
