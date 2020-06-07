@@ -35,6 +35,7 @@ enum Iso4217Code {
   brl,
   cad,
   chf,
+  cny,
   czk,
   dkk,
   eur,
@@ -110,7 +111,7 @@ final Map<Iso4217Code, Currency> currencies = <Iso4217Code, Currency>{
       symbol: r'CHF',
       minorUnit: 'rappen',
       minorFraction: 100),
-  Iso4217Code.chf: const Currency(
+  Iso4217Code.cny: const Currency(
       isoCode: 'CNY',
       fullName: 'Chinese Yuan Renminbi',
       symbol: r'¥',

@@ -22,6 +22,15 @@ void main() {
       expect(currencies[Iso4217Code.eur].minorUnit, 'cent');
       expect(currencies[Iso4217Code.eur].minorFraction, 100);
     });
+
+    test('CHF', () {
+      expect(currencies[Iso4217Code.chf].isoCode, 'CHF');
+      expect(currencies[Iso4217Code.chf].fullName, 'Swiss Franc');
+      expect(currencies[Iso4217Code.chf].symbol, r'CHF');
+      expect(currencies[Iso4217Code.chf].minorUnit, 'rappen');
+      expect(currencies[Iso4217Code.chf].minorFraction, 100);
+    });
+
   });
 
   group('getIsoCode [Currencies]', () {
